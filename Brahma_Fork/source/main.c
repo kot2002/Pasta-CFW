@@ -147,14 +147,7 @@ void bootCFW_FirstStage()
 
 int main() {
 	// Initialize services
-	srvInit();
-	aptInit();
-	hidInit(NULL);
 	gfxInitDefault();
-	fsInit();
-	sdmcInit();
-	hbInit();
-	qtmInit();
 	gfxSwapBuffers();
 	hidScanInput();
 	u32 kDown = hidKeysDown();

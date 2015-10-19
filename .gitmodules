@@ -1,0 +1,3 @@
+[submodule "Brahma_Fork/source/libkhax"]
+	path = Brahma_Fork/source/libkhax
+	url = git://github.com/Myriachan/libkhax
